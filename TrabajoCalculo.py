@@ -53,4 +53,3 @@ plt.show()
 importances = pd.Series(model.feature_importances_, index=X.columns).sort_values(ascending=False)
 print("\nIMPORTANCIA DE VARIABLES:")
 print(importances)
-
